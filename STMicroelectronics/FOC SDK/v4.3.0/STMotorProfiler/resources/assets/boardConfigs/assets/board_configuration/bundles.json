@@ -1,0 +1,173 @@
+[
+  {
+    "name": "NUCLEO-F302R8 - X-NUCLEO-IHM07M1 3Sh",
+    "description": "NUCLEO-F302R8 - X-NUCLEO-IHM07M1 3Sh description",
+    "boards_ids": [
+      "Nucleo-F302R8",
+      "X-Nucleo-IHM07M1 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "NUCLEO-F302R8 - X-NUCLEO-IHM08M1 3Sh",
+    "description": "NUCLEO-F302R8 - X-NUCLEO-IHM08M1 3Sh description",
+    "boards_ids": [
+      "Nucleo-F302R8",
+      "X-Nucleo-IHM08M1 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "NUCLEO-F303RE - X-NUCLEO-IHM07M1 3Sh",
+    "description": "NUCLEO-F303RE - X-NUCLEO-IHM07M1 3Sh description",
+    "boards_ids": [
+      "Nucleo-F303RE",
+      "X-Nucleo-IHM07M1 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "NUCLEO-F303RE - X-NUCLEO-IHM08M1 3Sh",
+    "description": "NUCLEO-F303RE - X-NUCLEO-IHM08M1 3Sh description",
+    "boards_ids": [
+      "Nucleo-F303RE",
+      "X-Nucleo-IHM08M1 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "STM32303E-EVAL - STEVAL-IHM023V3 3Sh HV",
+    "description": "STM32303E-EVAL - STEVAL-IHM023V3 3Sh HV description",
+    "boards_ids": [
+      "STM32303E-EVAL",
+      "STEVAL-IHM023V3 3Sh HV"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "STM32303E-EVAL - STM3210B-MCKIT 3Sh LV",
+    "description": "",
+    "boards_ids": [
+      "STM32303E-EVAL",
+      "STM3210B-MCKIT 3Sh LV"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "STM32303E-EVAL - STM3210B-MCKIT 3Sh HV",
+    "description": "",
+    "boards_ids": [
+      "STM32303E-EVAL",
+      "STM3210B-MCKIT 3Sh HV"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "STM32303E-EVAL - STEVAL-IHM025V1 3Sh",
+    "description": "",
+    "boards_ids": [
+      "STM32303E-EVAL",
+      "STEVAL-IHM025V1 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "STM32341G-EVAL - STEVAL-IHM025V1 3Sh",
+    "description": "",
+    "boards_ids": [
+      "STM32341G-EVAL",
+      "STEVAL-IHM025V1 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "STM32341G-EVAL - STM3210B-MCKIT 3Sh HV",
+    "description": "",
+    "boards_ids": [
+      "STM32341G-EVAL",
+      "STEVAL-IHM025V1 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "STM32341G-EVAL - STM3210B-MCKIT 3Sh LV",
+    "description": "",
+    "boards_ids": [
+      "STM32341G-EVAL",
+      "STEVAL-IHM025V1 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "STM32303E-EVAL - STEVAL-IHM028V2 3Sh",
+    "description": "STM32303E-EVAL - STEVAL-IHM028V2 3Sh description",
+    "boards_ids": [
+      "STM32303E-EVAL",
+      "STEVAL-IHM028V2 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "STM32303E-EVAL - STEVAL-IPM05F 3Sh",
+    "description": "STM32303E-EVAL - STEVAL-IPM05F 3Sh description",
+    "boards_ids": [
+      "STM32303E-EVAL",
+      "STEVAL-IPM05F 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "STM32303E-EVAL - STEVAL-IPM15B 3Sh",
+    "description": "STM32303E-EVAL - STEVAL-IPM15B 3Sh description",
+    "boards_ids": [
+      "STM32303E-EVAL",
+      "STEVAL-IPM15B 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+   {
+    "name": "NUCLEO-F303RE - STEVAL-IPM10B 3Sh",
+    "description": "NUCLEO-F303RE - STEVAL-IPM10B 3Sh description",
+    "boards_ids": [
+      "Nucleo-F303RE",
+      "STEVAL-IPM10B 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "NUCLEO-F303RE - STEVAL-IPM15B 3Sh",
+    "description": "NUCLEO-F303RE - STEVAL-IPM15B 3Sh description",
+    "boards_ids": [
+      "Nucleo-F303RE",
+      "STEVAL-IPM15B 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  },
+  {
+    "name": "NUCLEO-F303RE - STEVAL-IPM05F 3Sh",
+    "description": "NUCLEO-F303RE - STEVAL-IPM05F 3Sh description",
+    "boards_ids": [
+      "Nucleo-F303RE",
+      "STEVAL-IPM05F 3Sh"
+    ],
+    "path":"images",
+    "image": ""
+  }
+  
+]

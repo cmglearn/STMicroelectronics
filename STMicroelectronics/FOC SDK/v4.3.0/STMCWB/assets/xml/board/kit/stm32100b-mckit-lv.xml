@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<kit id="STM32100B-MCKIT-LV" label="STM32100B-MCKIT Less 35V" img="" description="Motor control starter kit for STM32F100 (128KB Flash) Value Line MCUs" default_motor1="motorShinano">
+    <single>
+        <power>STEVAL-IHM023V3-1Sh-LV</power>
+        <control>STM32100B-EVAL</control>
+    </single>
+    <applications>
+      <single>
+        <application>generic</application>
+        <application>pumps</application>
+        <application>compressor</application>
+        <application>air conditioning</application>
+        <application>dish washer</application>
+        <application>fans</application>
+      </single>
+    </applications>
+  </kit>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<kit id="STM3210B-MCKIT-1SH-HV" label="STM3210B-MCKIT 1Sh High voltage" img="" description="Motor control starter kit for STM32 (128KB flash) Performance and Access Line microcontrollers" default_motor1="motorHighVoltage">
+    <single>
+        <power>STM3210B-MCKIT-1Sh-HV</power>
+        <control>STM3210B-EVAL</control>
+    </single>
+    <applications>
+      <single>
+        <application>generic</application>
+        <application>pumps</application>
+        <application>compressor</application>
+        <application>air conditioning</application>
+        <application>dish washer</application>
+        <application>fans</application>
+      </single>
+    </applications>
+  </kit>

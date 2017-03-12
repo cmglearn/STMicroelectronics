@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<examples dir ="ExampleProjects/WB_Projects/SDK43x">
+  <file name ="SDK43x-NUCLEO-F302R8-X-NUCLEO-IHM08M1-Shinano.stmcx"               label ="NUCLEO-F302R8-X-NUCLEO-IHM08M1-Shinano"       section="PMSM"/>
+  <file name ="SDK43x-NUCLEO-F303RE-IPM05F-Shinano.stmcx"                         label ="NUCLEO-F303RE-IPM05F-Shinano"                 section="PMSM"/>
+  <file name ="SDK43x-NUCLEO-F303RE-IPM10B-Shinano.stmcx"                         label ="NUCLEO-F303RE-IPM10B-Shinano"                 section="PMSM"/>
+  <file name ="SDK43x-NUCLEO-F303RE-IPM15B-Shinano.stmcx"                         label ="NUCLEO-F303RE-IPM15B-Shinano"                 section="PMSM"/>
+  <file name ="SDK43x-NUCLEO-F303RE-X-NUCLEO-IHM07M1-BullRunning.stmcx"           label ="NUCLEO-F303RE-X-NUCLEO-IHM07M1-BullRunning"   section="PMSM"/>
+  <file name ="SDK43x-NUCLEO-F303RE-X-NUCLEO-IHM08M1-Shinano.stmcx"               label ="NUCLEO-F303RE-X-NUCLEO-IHM08M1-Shinano"       section="PMSM"/>
+  <file name ="SDK43x-P-NUCLEO-IHM001-BullRunning.stmcx"                          label ="P-NUCLEO-IHM001-BullRunning"                  section="PMSM"/>
+  <file name ="SDK43x-P-NUCLEO-IHM001-Shinano.stmcx"                              label ="P-NUCLEO-IHM001-Shinano"                      section="PMSM"/>
+  <file name ="SDK43x-STM3240G-EVAL-IHM023V3-Allen Bradley.stmcx"                 label ="STM3240G-EVAL-IHM023V3-Allen Bradley"         section="PMSM"/>
+  <file name ="SDK43x-STM3240G-EVAL-IHM023V3-Shinano.stmcx"                       label ="STM3240G-EVAL-IHM023V3-Shinano"               section="PMSM"/>
+  <file name ="SDK43x-STM32072B-EVAL-STM3210B-MCKIT-Shinano.stmcx"                label ="STM32072B-EVAL-STM3210B-MCKIT-Shinano"                 section="PMSM"/>
+  <file name ="SDK43x-STM32303C-EVAL-STM3210B-MCKIT-Shinano-DUAL-DRIVE.stmcx"     label ="STM32303C-EVAL-STM3210B-MCKIT-Shinano-DUAL-DRIVE"      section="PMSM"/>
+  <file name ="SDK43x-STM32303C-EVAL-STM3210B-MCKIT-Shinano-SINGLE-DRIVE.stmcx"   label ="STM32303C-EVAL-STM3210B-MCKIT-Shinano-SINGLE-DRIVE"    section="PMSM"/>
+  <file name ="SDK43x-STM32303E-EVAL-IHM045V1-Shinano-DUAL-DRIVE.stmcx"           label ="STM32303E-EVAL-IHM045V1-Shinano-DUAL-DRIVE"   section="PMSM"/>
+  <file name ="SDK43x-STM32303E-EVAL-IHM045V1-Shinano-SINGLE-DRIVE.stmcx"	        label ="STM32303E-EVAL-IHM045V1-Shinano-SINGLE-DRIVE" section="PMSM"/>
+  <file name ="SDK43x-STM32303E-EVAL-STM3210B-MCKIT-Shinano-DUAL-DRIVE.stmcx"     label ="STM32303E-EVAL-STM3210B-MCKIT-Shinano-DUAL-DRIVE"      section="PMSM"/>
+  <file name ="SDK43x-STM32303E-EVAL-STM3210B-MCKIT-Shinano-SINGLE-DRIVE.stmcx"   label ="STM32303E-EVAL-STM3210B-MCKIT-Shinano-SINGLE-DRIVE"    section="PMSM"/>
+  <file name ="SDK43x-STM32100B-EVAL-STM3210B-MCKIT-Shinano.stmcx"                label ="STM32100B-EVAL-STM3210B-MCKIT-Shinano"    section="PMSM"/>
+  <file name ="SDK43x-STEVAL-SPIN3201-Shinano.stmcx"                              label ="STEVAL-SPIN3201-Shinano-SINGLE-DRIVE"         section="PMSM"/>
+</examples>

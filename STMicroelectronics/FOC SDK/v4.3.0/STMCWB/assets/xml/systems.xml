@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<systems xmlns:xi="http://www.w3.org/2003/XInclude">
+  <version ver="4.3.0">
+    <boards>
+      <!-- inverter -->
+      <inverter>
+        <xi:include href="board/inverter/customInverter.xml" />
+        <xi:include href="board/inverter/STEVAL-IHM034V2.xml" />
+        <xi:include href="board/inverter/STEVAL-IFN003V1.xml" />
+        <xi:include href="board/inverter/STEVAL-IHM040V1.xml" />
+        <xi:include href="board/inverter/STEVAL-IHM042V1.xml" />
+        <xi:include href="board/inverter/STEVAL-SPIN3201.xml" />
+      </inverter>
+      <!-- power -->
+      <power>
+        <xi:include href="board/power/customPower.xml" />
+        <xi:include href="board/power/STM3210B-MCKIT-3Sh-LV.xml" />
+        <xi:include href="board/power/STM3210B-MCKIT-1Sh-LV.xml" />
+        <xi:include href="board/power/STM3210B-MCKIT-3Sh-HV.xml" />
+        <xi:include href="board/power/STM3210B-MCKIT-1Sh-HV.xml" />
+        <xi:include href="board/power/STEVAL-IHM023V3-3Sh-LV.xml" />
+        <xi:include href="board/power/STEVAL-IHM023V3-1Sh-LV.xml" />
+        <xi:include href="board/power/STEVAL-IHM023V3-3Sh-HV.xml" />
+        <xi:include href="board/power/STEVAL-IHM023V3-1Sh-HV.xml" />
+        <xi:include href="board/power/STEVAL-IHM028V2-3Sh.xml" />
+        <xi:include href="board/power/STEVAL-IHM028V2-1Sh.xml" />
+        <xi:include href="board/power/STEVAL-IHM025V1-3Sh.xml" />
+        <xi:include href="board/power/STEVAL-IHM025V1-1Sh.xml" />
+        <xi:include href="board/power/STEVAL-IHM045V1-3Sh.xml" />
+        <xi:include href="board/power/STEVAL-IHM045V1-1Sh.xml" />
+        <xi:include href="board/power/X-NUCLEO-IHM07M1-3Sh.xml" />
+        <xi:include href="board/power/X-NUCLEO-IHM07M1-1Sh.xml" />
+        <xi:include href="board/power/X-NUCLEO-IHM08M1-3Sh.xml" />
+        <xi:include href="board/power/X-NUCLEO-IHM08M1-1Sh.xml" />
+        <xi:include href="board/power/X-NUCLEO-IHM11M1-1Sh.xml" />
+        <xi:include href="board/power/STEVAL-IPM05F-3Sh.xml" />
+        <xi:include href="board/power/STEVAL-IPM05F-1Sh.xml" />
+        <xi:include href="board/power/STEVAL-IPM07F-3Sh.xml" />
+        <xi:include href="board/power/STEVAL-IPM07F-1Sh.xml" />
+        <xi:include href="board/power/STEVAL-IPM10B-3Sh.xml" />
+        <xi:include href="board/power/STEVAL-IPM10B-1Sh.xml" />
+        <xi:include href="board/power/STEVAL-IPM10F-3Sh.xml" />
+        <xi:include href="board/power/STEVAL-IPM10F-1Sh.xml" />
+        <xi:include href="board/power/STEVAL-IPM15B-3Sh.xml" />
+        <xi:include href="board/power/STEVAL-IPM15B-1Sh.xml" />
+
+
+
+      </power>
+      <!-- control -->
+      <control>
+        <xi:include href="board/control/customControl.xml" />
+        <xi:include href="board/control/STM320518-EVAL.xml" />
+        <xi:include href="board/control/STM32072B-EVAL.xml" />
+        <xi:include href="board/control/STM32100B-EVAL.xml" />
+        <xi:include href="board/control/STM3210B-EVAL.xml" />
+        <xi:include href="board/control/STM3210E-EVAL.xml" />
+        <xi:include href="board/control/STM322xG-EVAL.xml" />
+        <xi:include href="board/control/STM32303E-EVAL.xml" />
+        <xi:include href="board/control/STM32303C-EVAL.xml" />
+        <xi:include href="board/control/STM3240G-EVAL.xml" />
+        <xi:include href="board/control/STM3241G-EVAL.xml" />
+        <xi:include href="board/control/STM32446E-EVAL.xml" />
+        <xi:include href="board/control/STEVAL-IHM022V1.xml" />
+        <xi:include href="board/control/STEVAL-IHM039V1.xml" />
+        <xi:include href="board/control/NUCLEO-F302R8.xml" />
+        <xi:include href="board/control/NUCLEO-F303RE.xml" />
+        <xi:include href="board/control/NUCLEO-F446RE.xml" />
+        <xi:include href="board/control/NUCLEO-F072RB.xml" />
+        <xi:include href="board/control/NUCLEO-F030R8.xml" />
+
+      </control>
+    </boards>
+
+    <motors>
+      <xi:include href="motors/motorLowVoltage.xml" />
+      <xi:include href="motors/motorHighVoltage.xml" />
+      <xi:include href="motors/motorShinano.xml" />
+      <xi:include href="motors/BR2804-1700kv.xml" />
+      <xi:include href="motors/Allen Bradley.xml" />
+    </motors>
+
+    <kits>
+      <xi:include href="board/kit/stm3210b-mckit-1sh-lv.xml" />
+      <xi:include href="board/kit/stm3210b-mckit-1sh-hv.xml" />
+      <xi:include href="board/kit/stm3210b-mckit-3sh-lv.xml" />
+      <xi:include href="board/kit/stm3210b-mckit-3sh-hv.xml" />
+      <xi:include href="board/kit/stm32100b-mckit-lv.xml" />
+      <xi:include href="board/kit/stm32100b-mckit-hv.xml" />
+      <xi:include href="board/kit/P-NUCLEO-IHM001-3Sh.xml" />
+      <xi:include href="board/kit/P-NUCLEO-IHM001-1Sh.xml" />
+    </kits>
+  </version>
+</systems>
+

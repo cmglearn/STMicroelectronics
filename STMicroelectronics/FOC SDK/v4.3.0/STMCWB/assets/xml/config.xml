@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xi="http://www.w3.org/2003/XInclude">
+  <customSupport href="http://www.st.com/web/en/support/online_support.html" />
+  <license href="assets/pdf/SLA.pdf" />
+  <mruRegKey href="SOFTWARE\\STMicroelectronics\\STMCWB\\MRUList" />
+
+
+  <assets_path           href="assets" />
+  <user_assets_path      href=".st_motor_control" />
+  
+  <update_path           href="updates/4_3" />  <!-- is the user directory containing updates of boards and motors for each version -->
+  <user_motorsPath       href="user_motors" />
+
+  <xml_systems           href="xml/systems.xml" />
+  <xml_apps              href="xml/applications.xml" />
+  <xml_base_imgUrl       href="xml/board" />
+  
+  <update_examples_file href="xml/examples.xml" />
+  <mp_tool href="..\STMotorProfiler\STMotorProfiler.exe"></mp_tool>
+
+
+  <xml_user_interface href="assets/xml/reserved_MCU_pin_user_interface.xml" />
+  
+  <xi:include href="docs.xml" />
+  <xi:include href="examples.xml" />
+
+
+  <!-- old -->
+  <xml_user_motors_4_2    href="STMCWB_Asset/motors/users.xml" />
+
+  <mc_version value="4.3.0.2"/>
+  
+  <libraries default="4.3.0">
+    <library ver="3.2.0" text="PMSM FOC SDK v3.2" template_folder="templates_030200">
+      <section value="PMSM">
+        <project_type type="SINGLE">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103x" />
+            <mcu value="STM32F100x" />
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+          </file_tocreate>
+        </project_type>
+        <project_type type="DUAL">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103HD" />
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+          </file_tocreate>
+        </project_type>
+      </section>
+    </library>
+      
+    <library ver="3.3.0" text="PMSM FOC SDK v3.3"   template_folder="templates_030300">
+      <section value="PMSM">
+        <project_type type="SINGLE">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103x" />
+            <mcu value="STM32F100x" />
+            <mcu value="STM32F051" />
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+          </file_tocreate>
+        </project_type>
+        <project_type type="DUAL">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103HD" />
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+          </file_tocreate>
+        </project_type>
+      </section>
+    </library>
+      
+    <library ver="3.4.0" text="PMSM FOC SDK v3.4"   template_folder="templates_030400">
+      <section value="PMSM">
+        <project_type type="SINGLE">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F3xx" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103x" />
+            <mcu value="STM32F100x" />
+            <mcu value="STM32F0x" />
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc" id="11"/>
+          </file_tocreate>
+        </project_type>
+        <project_type type="DUAL">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F303x" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103HD" />
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc" id="11"/>
+          </file_tocreate>
+        </project_type>
+      </section>
+    </library>
+      
+    <library ver="4.0.0" text="PMSM FOC SDK v4.0"   template_folder="templates_040000">
+      <section value="PMSM">
+        <project_type type="SINGLE">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F3xx" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103x" />
+            <mcu value="STM32F100x" />
+            <mcu value="STM32F0x" />
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc" id="11"/>
+          </file_tocreate>
+        </project_type>
+        <project_type type="DUAL">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F303x" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103HD" />
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc" id="11"/>
+          </file_tocreate>
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc" id="11"/>
+          </file_tocreate>
+        </project_type>
+      </section>
+    </library>
+
+    <library ver="4.1.0" text="PMSM FOC SDK v4.1"   template_folder="templates_040100">
+      <section value="PMSM">
+        <project_type type="SINGLE">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F3xx" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103x" />
+            <mcu value="STM32F100x" />
+            <mcu value="STM32F0x" />
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc" id="11"/>
+          </file_tocreate>
+        </project_type>
+        <project_type type="DUAL">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F303x" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103HD" />
+          </supported_mcu>
+
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc" id="11"/>
+          </file_tocreate>
+        </project_type>
+      </section>
+    </library>
+
+    <library ver="4.2.0" text="PMSM FOC SDK v4.2"   template_folder="templates_040200">
+      <section value="PMSM">
+        <project_type type="SINGLE">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F3xx" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103x" />
+            <mcu value="STM32F100x" />
+            <mcu value="STM32F0x" />
+          </supported_mcu>
+
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc" id="11"/>
+          </file_tocreate>
+
+        </project_type>
+        <project_type type="DUAL">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F303x" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103HD" />
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc" id="11" />
+          </file_tocreate>
+          <supported_mcu_list>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F303XB" />
+            <mcu value="STM32F303XC" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103_HD" />
+          </supported_mcu_list>
+        </project_type>
+      </section>
+    </library>
+
+    <library ver="4.3.0" text="PMSM FOC SDK v4.3.0"   template_folder="templates_040300">
+      <section value="PMSM">
+        <project_type type="SINGLE">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F3xx" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103x" />
+            <mcu value="STM32F100x" />
+            <mcu value="STM32F0x" />
+          </supported_mcu>
+
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc_f103" id="11" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc_f303" id="11" />
+          </file_tocreate>
+
+        </project_type>
+        <project_type type="DUAL">
+          <supported_mcu>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F303x" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103HD" />
+          </supported_mcu>
+          <file_tocreate>
+            <file object="" name="stm32f10x_MC_it" ext="c" type="f1_family" id="9" />
+            <file object="" name="stm32f30x_MC_it" ext="c" type="f3_family" id="10" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc_f103" id="11" />
+            <file object="" name="PFCParameters" ext="h"  type="pfc_f303" id="11" />
+          </file_tocreate>
+          <supported_mcu_list>
+            <mcu value="STM32F4xx" />
+            <mcu value="STM32F303XB" />
+            <mcu value="STM32F303XC" />
+            <mcu value="STM32F2xx" />
+            <mcu value="STM32F103_HD" />
+          </supported_mcu_list>
+        </project_type>
+      </section>
+    </library>
+  </libraries>
+
+  <sections>
+    <section value="PMSM">
+      <project_type type="SINGLE" uid="P0" description="PMSM - Single FOC" />
+      <project_type type="DUAL" uid="P1" description="PMSM - Dual FOC" />
+    </section>
+  </sections>
+
+  <file_tocreate>
+    <section value="PMSM">
+      <project_type type="SINGLE">
+        <file object="M" name="PMSM motor parameters" ext="h" id="1"/>
+        <file object="PS" name="Power stage parameters" ext="h" id="2"/>
+        <file object="DM" name="Drive parameters" ext="h" id="3"/>
+        <file object="CS" name="Control stage parameters" ext="h" id="4"/>
+      </project_type>
+        <project_type type="DUAL">
+        <file object="M1" name="PMSM motor parameters" ext="h"  id="1"/>
+        <file object="PS1" name="Power stage parameters" ext="h"  id="2"/>
+        <file object="DM1" name="Drive parameters" ext="h" id="3"/>
+        <file object="CS" name="Control stage parameters" ext="h" id="4"/>
+        <file object="M2" name="PMSM motor 2 parameters" ext="h" id="5"/>
+        <file object="PS2" name="Power stage parameters motor 2" ext="h" id="6" />
+        <file object="DM2" name="Drive parameters motor 2" ext="h"  id="7"/>
+        <file object="CS" name="Control stage parameters motor 2" ext="h"  id="8"/>
+      </project_type>
+    </section>
+  </file_tocreate>  
+
+</config>

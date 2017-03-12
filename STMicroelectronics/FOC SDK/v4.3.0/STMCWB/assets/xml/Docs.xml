@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<docItems>
+  <docItem  docType="PDF" toolTipText="Release Note (PDF file reader needed)" href="assets/pdf/STM32 PMSM FOC SDK_RN.pdf">Release Note</docItem>
+  <docItem  docType="PDF" toolTipText="STM32 PMSM FOC SDK Hands-on workshop with hardware tools (PDF file reader needed)" href="..\STM32 PMSM FOC LIB\Docs\STM32 PMSM MC Library HandsOn.pdf">SDK Hands-on</docItem>
+	<docItem  docType="PDF" toolTipText="STM32 PMSM FOC SDK FAQ (PDF file reader needed)" href="..\STM32 PMSM FOC LIB\Docs\STM32 PMSM MC Library FAQ.pdf">SDK FAQ</docItem>
+  <separator/>
+	<docItem docType="PDF" toolTipText="UM1080 - Quick start guide for STM32F0x/F100xx/F103xx/F2xx/F30x/F4xx PMSM single/dual FOC SDK (PDF file reader needed)" href="../STM32 PMSM FOC LIB/Docs/Quick Start for STM32 PMSM MC Library.pdf">Quick Start</docItem>
+	<docItem docType="CHM" toolTipText="STM32 PMSM FOC FW Library Documentation" href="../STM32 PMSM FOC LIB/Docs/STM32 FOC PMSM FW library developer Help file.chm">FW API description</docItem>
+	<docItem docType="PDF" toolTipText="UM1052 - STM32F0x/F100xx/F103xx/F2xx/F30x/F4xx PMSM single/dual FOC SDK (PDF file reader needed)" href="../STM32 PMSM FOC LIB/Docs/STM32 PMSM MC Library User manual.pdf">User manual</docItem>
+	<docItem docType="PDF" toolTipText="UM1053 - Advanced developers guide for STM32F0x/F100xx/F103xx and STM32F2xx/F30x/F4xx MCUs PMSM single/dual FOC library (PDF file reader needed)" href="../STM32 PMSM FOC LIB/Docs/STM32 PMSM MC Library Developer manual.pdf">Developer manual</docItem>  
+</docItems>
